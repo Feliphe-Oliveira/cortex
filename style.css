@@ -51,7 +51,7 @@ header a{
 
 h1{
     font-family: var(--titulo2);
-    font-size: 25px;
+    font-size: 50px;
     letter-spacing: 2px;
     transition: .5s;
     text-transform: uppercase;
@@ -119,7 +119,7 @@ section{
 }
 
 p{
-    margin: 10px;
+    margin: px;
     padding: 10px;
     font-family: var(--paragrafo);
     font-size: 1.3em;
@@ -141,7 +141,7 @@ footer a:hover{
     color: lightgray;
 }
 
-@media (max-width:999px) {
+@media (min-width:500px) {
 
     
     main{
