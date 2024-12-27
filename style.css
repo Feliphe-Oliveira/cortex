@@ -33,14 +33,24 @@ header{
 .nav-list{
     background-color: lightgray;
     display: flex;
-    margin-top: 359px;
+    margin-top: 619px;
     padding: 10px;
     position: absolute;
     right: -150px;
+    display: none;
     transition: 0.5s;
-    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 10px;
 }
 
 .menu-nav-list{
-    right: 44px !important;
+    right: 0px !important;
+    display: block;
+
 }
