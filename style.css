@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
    
 }
 
@@ -22,7 +23,7 @@ header{
     height: 100px;
     display: flex;
     align-items: center;
-    overflow:hidden;
+
 }
 
 h1{
@@ -50,22 +51,23 @@ h1{
 
 
 .nav-list{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
+    /* display:flex; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(27, 10, 44);
-    height: 90vh;
+    height: 550px;
     width: 200px;
     background-color: rgba(11, 11, 11, 0.913);
-    display: flex;
-    margin-top: 769px;
+    /* display: flex; */
+    margin-top: 650px;
     padding: 10px;
     position: absolute;
-    right: -220px;
+    right: -250px;
     display: block;
-    transition: 2s;
+    transition: 1s;
     visibility: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -87,7 +89,6 @@ a:hover{
 .menu-nav-list{
     right: 0px !important;
     visibility: visible;
-    transition: 1s;
 }
 
 section{
