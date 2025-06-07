@@ -7,14 +7,17 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 body{
     overflow: hidden;
+    background-color: black;
 }
 
 header{
-    background-color: aqua;
+    background-color: black;
+    color: white;
     width:100vw;
     height: 100px;
     display: flex;
@@ -43,6 +46,8 @@ h1{
     
 }
 
+
+
 .nav-list{
     display:flex;
     justify-content: space-around;
@@ -50,38 +55,47 @@ h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(27, 10, 44);
     height: 90vh;
+    width: 200px;
     background-color: rgba(11, 11, 11, 0.913);
     display: flex;
     margin-top: 769px;
     padding: 10px;
     position: absolute;
-    right: -150px;
-    display: none;
+    right: -220px;
+    display: block;
     transition: 2s;
+    visibility: hidden;
 
 }
 
 ul{
     list-style: none;
+    padding: 10px;
+    text-align: center;
  
 }
 
 li{
     padding: 10px;
+    border-bottom: solid 1px white;
+}
+a:hover{
+    color: gray;
 }
 
 .menu-nav-list{
     right: 0px !important;
-    display: block;
-    transition: 2s;
+    visibility: visible;
+    transition: 1s;
 }
 
 section{
-    background-color: rgba(7, 62, 245, 0.954);
+    background-color: black;
     width: 400px;
-    height: 100vh;
+    height: 80vh;
     margin: auto;
     color: white;
+    border:solid 1px #fff;
     
 }
 
