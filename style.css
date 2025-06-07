@@ -7,7 +7,8 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
    
 }
 
@@ -63,7 +64,7 @@ h1{
     margin-top: 650px;
     padding: 10px;
     position: absolute;
-    right: -250px;
+    right: -210px;
     display: block;
     transition: 1s;
     visibility: hidden;
@@ -89,6 +90,7 @@ a:hover{
 .menu-nav-list{
     right: 0px !important;
     visibility: visible;
+    overflow-y: auto;
 }
 
 section{
